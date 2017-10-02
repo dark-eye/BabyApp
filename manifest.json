@@ -1,0 +1,16 @@
+{
+    "name": "babyapp.etherpulse",
+    "description": "description of BabyApp",
+    "architecture": "amd64",
+    "title": "BabyApp",
+    "hooks": {
+        "BabyApp": {
+            "apparmor": "BabyApp/BabyApp.apparmor",
+            "desktop":  "BabyApp/BabyApp.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Eran Uzan <etherpulse@gmail.com>",
+    "framework" : "ubuntu-sdk-15.04.6"
+}
+

@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-30 19:42+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/eran/projects/ubuntu/BabyApp/BabyApp/Feeding.qml:7
+#: /home/eran/projects/ubuntu/BabyApp/BabyApp/NewFeedingEvent.qml:49
+msgid "Feeding"
+msgstr ""
+
+#: /home/eran/projects/ubuntu/BabyApp/BabyApp/Feeding.qml:62
+#: /home/eran/projects/ubuntu/BabyApp/BabyApp/NewFeedingEvent.qml:13
+msgid "New Event"
+msgstr ""
+
+#: /home/eran/projects/ubuntu/BabyApp/BabyApp/NewFeedingEvent.qml:49
+msgid "Bottle"
+msgstr ""
+
+#: /home/eran/projects/ubuntu/BabyApp/BabyApp/NewFeedingEvent.qml:49
+msgid "Poop"
+msgstr ""
+
+#: /home/eran/projects/ubuntu/BabyApp/BabyApp/NewFeedingEvent.qml:49
+msgid "Peepee"
+msgstr ""
+
+#: /home/eran/projects/ubuntu/BabyApp/BabyApp/NewFeedingEvent.qml:49
+msgid "PooPee"
+msgstr ""
+
+#: /home/eran/projects/ubuntu/build-BabyApp-UbuntuSDK_for_desktop_GCC_amd64_ubuntu_sdk_15_04-Debug/BabyApp/BabyApp.desktop.h:1
+msgid "BabyApp"
+msgstr ""

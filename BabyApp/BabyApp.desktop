@@ -1,0 +1,7 @@
+[Desktop Entry]
+_Name=BabyApp
+Exec=qmlscene %U BabyApp/Main.qml
+Icon=BabyApp/BabyApp.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
