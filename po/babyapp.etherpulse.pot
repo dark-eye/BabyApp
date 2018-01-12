@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-30 19:42+0000\n"
+"POT-Creation-Date: 2018-01-12 00:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,32 +17,39 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/eran/projects/ubuntu/BabyApp/BabyApp/Feeding.qml:7
-#: /home/eran/projects/ubuntu/BabyApp/BabyApp/NewFeedingEvent.qml:49
-msgid "Feeding"
+#: /home/eran/projects/UT/BabyApp/BabyApp/Menu.qml:11
+msgid "Baby App"
 msgstr ""
 
-#: /home/eran/projects/ubuntu/BabyApp/BabyApp/Feeding.qml:62
-#: /home/eran/projects/ubuntu/BabyApp/BabyApp/NewFeedingEvent.qml:13
+#: /home/eran/projects/UT/BabyApp/BabyApp/Components/NewFeedingEvent.qml:19
+#: /home/eran/projects/UT/BabyApp/BabyApp/Pages/Events.qml:87
 msgid "New Event"
 msgstr ""
 
-#: /home/eran/projects/ubuntu/BabyApp/BabyApp/NewFeedingEvent.qml:49
+#: /home/eran/projects/UT/BabyApp/BabyApp/Components/NewFeedingEvent.qml:61
+msgid "Feeding"
+msgstr ""
+
+#: /home/eran/projects/UT/BabyApp/BabyApp/Components/NewFeedingEvent.qml:61
 msgid "Bottle"
 msgstr ""
 
-#: /home/eran/projects/ubuntu/BabyApp/BabyApp/NewFeedingEvent.qml:49
+#: /home/eran/projects/UT/BabyApp/BabyApp/Components/NewFeedingEvent.qml:61
 msgid "Poop"
 msgstr ""
 
-#: /home/eran/projects/ubuntu/BabyApp/BabyApp/NewFeedingEvent.qml:49
+#: /home/eran/projects/UT/BabyApp/BabyApp/Components/NewFeedingEvent.qml:61
 msgid "Peepee"
 msgstr ""
 
-#: /home/eran/projects/ubuntu/BabyApp/BabyApp/NewFeedingEvent.qml:49
-msgid "PooPee"
+#: /home/eran/projects/UT/BabyApp/BabyApp/Components/NewFeedingEvent.qml:103
+msgid "Feeding time"
 msgstr ""
 
-#: /home/eran/projects/ubuntu/build-BabyApp-UbuntuSDK_for_desktop_GCC_amd64_ubuntu_sdk_15_04-Debug/BabyApp/BabyApp.desktop.h:1
+#: /home/eran/projects/UT/BabyApp/BabyApp/Pages/Events.qml:33
+msgid "Events"
+msgstr ""
+
+#: /home/eran/projects/UT/build-BabyApp-UbuntuSDK_for_desktop_GCC_amd64_ubuntu_sdk_15_04_2fe373-Debug/BabyApp/BabyApp.desktop.h:1
 msgid "BabyApp"
 msgstr ""

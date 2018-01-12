@@ -36,4 +36,8 @@ INSTALLS+=config_files qml_files desktop_file
 
 DISTFILES += \
     Feeding.qml \
-    NewFeedingEvent.qml
+    NewFeedingEvent.qml \
+    Menu.qml \
+    Soothing.qml \
+    Faq.qml \
+    Statistics.qml
