@@ -49,8 +49,13 @@ Page {
 
     //================= Content ====================
 
+    PageBackground {
+        image.source: "../Graphics/baby_feeding.jpg"
+    }
+
     UbuntuListView {
         id:eventsHistory
+        clip:true
         anchors {
             left: parent.left
             right: parent.right
@@ -59,11 +64,7 @@ Page {
         }
         model:dbAllfeedingQuery
 
-        delegate: ListItem {
-                ListItemLayout  {
-                    title.text:model.contents.type
-                    subtitle.text: model.contents.datetime.toLocaleString()
-                }
+        delegate: EventDelegate {
                 leadingActions: ListItemActions {
                     actions: [
                         Action {
@@ -76,6 +77,9 @@ Page {
                         }
                     ]
                 }
+                onClicked: {
+                    eventsBottomEdge.contentComponent.editEvent(model)
+                }
         }
     }
 
@@ -86,12 +90,13 @@ Page {
         height: Math.min(parent.height , units.gu(45))
         hint.text : i18n.tr("New Event");
         hint.status: BottomEdgeHint.Active
+        StyleHints {
+            panelColor:Qt.rgba(128,128,128,0.7)
+        }
         contentComponent:  NewFeedingEvent {
+            id:testId
             onSaveNewEvent: {
-                 console.log(type);
-                 console.log(datetime);
                  babyAppDB.putDoc({"feeding":{"type":type,"datetime":datetime}});
-
                  eventsBottomEdge.collapse();
 
             }
@@ -100,6 +105,7 @@ Page {
                 eventsBottomEdge.collapse();
             }
         }
+        onCommitCompleted: {contentItem.reset();}
         preloadContent: false
 
     }

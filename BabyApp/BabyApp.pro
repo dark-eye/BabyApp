@@ -40,4 +40,6 @@ DISTFILES += \
     Menu.qml \
     Soothing.qml \
     Faq.qml \
-    Statistics.qml
+    Statistics.qml \
+    Components/PageBackground.qml \
+    Components/EventDelegate.qml

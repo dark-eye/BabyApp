@@ -1,6 +1,8 @@
 import QtQuick 2.0
 import Ubuntu.Components 1.3
 
+import "Components"
+
 
 Page {
     id:menuPage
@@ -11,17 +13,9 @@ Page {
         title:i18n.tr("Baby App");
     }
 
-    Image {
-        anchors {
-            bottom :parent.bottom
-            left:parent.left
-            right:parent.right
-            rightMargin:units.gu(5)
-        }
-
-        fillMode: Image.PreserveAspectFit
-        source:"Graphics/baby_1280.jpg"
-
+    PageBackground {
+        image.source: "Graphics/baby_1280.jpg"
+                image.anchors.rightMargin:parent.width/3
     }
 
     ListView {
@@ -56,6 +50,7 @@ Page {
         }
 
         delegate: ListItem {
+
                 ListItemLayout  {
                     title.text:model.title
                     Icon {
@@ -63,7 +58,6 @@ Page {
                         SlotsLayout.position: SlotsLayout.Trailing;
                         width:units.gu(2)
                     }
-
                 }
 
                 onClicked: {

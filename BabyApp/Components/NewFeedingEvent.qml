@@ -8,15 +8,21 @@ Page {
     signal saveNewEvent (string type , variant datetime );
     signal cancelNewEvent;
 
-    Rectangle {
-        height:_newFeedingEvent.parent.parent.height
-        width:parent.width
-        color: theme.palette.normal.background
+    height:parent.width
+
+    function reset() {
+        newEventDate.mode =  "Years"
+        newEventDate.mode =  "Years|Months|Days"
+        newEventTime.mode = "Hours|Minutes"
+         feedingTime.mode ="Hours|Minutes";
     }
 
-    header: PageHeader{
+    header: PageHeader {
         id:newEventHeader
         title: i18n.tr("New Event")
+        StyleHints {
+            backgroundColor:Qt.rgba(256,256,256,0.1)
+        }
         leadingActionBar {
             actions: [
                 Action {
@@ -48,7 +54,8 @@ Page {
         id: mainNewEventColumn
         width:parent.width
         anchors.top:newEventHeader.bottom
-        spacing:units.gu(0.5)
+        anchors.margins: units.gu(1)
+        spacing:units.gu(1)
 
         Row {
              id: basicInputsRow
@@ -71,12 +78,12 @@ Page {
             DatePicker {
                 id:newEventDate
                 width: units.gu(22)
-                mode:"Years|Months|Days"
+               // mode:"Years|Months|Days"
             }
             DatePicker {
                 id:newEventTime
                 width:units.gu(9)
-                mode:"Hours|Minutes"
+              //  mode:"Hours|Minutes"
                 date:new Date()
             }
         }
@@ -96,11 +103,15 @@ Page {
             anchors.horizontalCenter: parent.horizontalCenter
             visible: opacity != 0;
             opacity: newEventType.selectedIndex == 0 || newEventType.selectedIndex == 1 ? 1 : 0
+            onVisibleChanged: {
+                feedingTime.mode ="Hours|Minutes";
+            }
+
             spacing:units.gu(0.25)
             Behavior on opacity {UbuntuNumberAnimation { duration: UbuntuAnimation.FastDuration}}
             Label {
                 anchors.verticalCenter: parent.verticalCenter
-                text:i18n.tr("Feeding time") + ":"
+                text:i18n.tr("Feeding duration") + ":"
             }
 
             DatePicker {
@@ -108,7 +119,7 @@ Page {
                 anchors.verticalCenter: parent.verticalCenter
                 width:units.gu(15)
                 height:units.gu(10)
-                mode:"Hours|Minutes"
+                //mode:"Hours|Minutes"
             }
         }
     }

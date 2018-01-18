@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-12 00:36+0000\n"
+"POT-Creation-Date: 2018-01-18 22:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,39 +17,51 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/eran/projects/UT/BabyApp/BabyApp/Menu.qml:11
+#: /home/eran/projects/UT/BabyApp/BabyApp/Menu.qml:13
 msgid "Baby App"
 msgstr ""
 
-#: /home/eran/projects/UT/BabyApp/BabyApp/Components/NewFeedingEvent.qml:19
-#: /home/eran/projects/UT/BabyApp/BabyApp/Pages/Events.qml:87
+#: /home/eran/projects/UT/BabyApp/BabyApp/Components/NewFeedingEvent.qml:22
+#: /home/eran/projects/UT/BabyApp/BabyApp/Pages/Events.qml:91
 msgid "New Event"
 msgstr ""
 
-#: /home/eran/projects/UT/BabyApp/BabyApp/Components/NewFeedingEvent.qml:61
+#: /home/eran/projects/UT/BabyApp/BabyApp/Components/NewFeedingEvent.qml:68
 msgid "Feeding"
 msgstr ""
 
-#: /home/eran/projects/UT/BabyApp/BabyApp/Components/NewFeedingEvent.qml:61
+#: /home/eran/projects/UT/BabyApp/BabyApp/Components/NewFeedingEvent.qml:68
 msgid "Bottle"
 msgstr ""
 
-#: /home/eran/projects/UT/BabyApp/BabyApp/Components/NewFeedingEvent.qml:61
+#: /home/eran/projects/UT/BabyApp/BabyApp/Components/NewFeedingEvent.qml:68
 msgid "Poop"
 msgstr ""
 
-#: /home/eran/projects/UT/BabyApp/BabyApp/Components/NewFeedingEvent.qml:61
+#: /home/eran/projects/UT/BabyApp/BabyApp/Components/NewFeedingEvent.qml:68
 msgid "Peepee"
 msgstr ""
 
-#: /home/eran/projects/UT/BabyApp/BabyApp/Components/NewFeedingEvent.qml:103
-msgid "Feeding time"
+#: /home/eran/projects/UT/BabyApp/BabyApp/Components/NewFeedingEvent.qml:114
+msgid "Feeding duration"
 msgstr ""
 
 #: /home/eran/projects/UT/BabyApp/BabyApp/Pages/Events.qml:33
 msgid "Events"
 msgstr ""
 
-#: /home/eran/projects/UT/build-BabyApp-UbuntuSDK_for_desktop_GCC_amd64_ubuntu_sdk_15_04_2fe373-Debug/BabyApp/BabyApp.desktop.h:1
+#: /home/eran/projects/UT/BabyApp/BabyApp/Pages/Faq.qml:12
+msgid "Faq"
+msgstr ""
+
+#: /home/eran/projects/UT/BabyApp/BabyApp/Pages/Soothing.qml:12
+msgid "Soothing"
+msgstr ""
+
+#: /home/eran/projects/UT/BabyApp/BabyApp/Pages/Statistics.qml:12
+msgid "Statistics"
+msgstr ""
+
+#: /home/eran/projects/UT/build-BabyApp-UbuntuSDK_for_desktop_GCC_amd64_ubuntu_sdk_15_04_2fe373-Release/BabyApp/BabyApp.desktop.h:1
 msgid "BabyApp"
 msgstr ""
